@@ -10,7 +10,7 @@ export default function EditPage() {
     const memeRef = createRef()
     return (
         <div className='container'  >
-            <div ref={memeRef} className="meme">
+            <div ref={memeRef} className="meme" style={{border:"1px solid black", width:"30rem", padding:"0.5rem 1rem"}}>
                 <img className='mt-4 mb-4' src={params.get('url')} width="360" alt="" />
 
                 {
