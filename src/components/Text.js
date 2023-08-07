@@ -3,7 +3,7 @@ import Draggable from 'react-draggable'
 
 export default function Text() {
     const [editMode, setEditMode] = useState(false)
-    const [val, setVal] = useState("enter text here...")
+    const [val, setVal] = useState("double click to edit")
     return (
         <div>
             <h4>
